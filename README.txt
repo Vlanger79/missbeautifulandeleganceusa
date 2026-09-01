@@ -1,14 +1,12 @@
-MISS BEAUTIFUL & ELEGANCE USA — WEBSITE
+MISS BEAUTIFUL & ELEGANCE USA — GITHUB READY
 
-This is the pastel/crown website version you selected.
+1. Unzip this file on your Chromebook.
+2. In your GitHub repository, click Add file > Upload files.
+3. Upload index.html and the images folder.
+4. Commit directly to the main branch.
+5. Go to Settings > Pages.
+6. Under Build and deployment choose "Deploy from a branch".
+7. Choose branch "main" and folder "/ (root)", then Save.
 
-Main website file:
-index.html
-
-The images are embedded in the HTML, so the page can be opened directly and the assets do not need separate image files.
-
-For GitHub Pages:
-1. Create a new GitHub repository.
-2. Upload index.html to the repository.
-3. In Settings > Pages, choose Deploy from a branch, select main, and / (root).
-4. Save and wait for GitHub Pages to publish.
+Keep the images folder name exactly as it is.
+Do not upload this ZIP as the website; unzip it first.

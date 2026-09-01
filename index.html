@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Miss Beautiful & Elegance USA | Beauty. Confidence. Purpose. Elegance.</title>
+  <meta name="description" content="Miss Beautiful & Elegance USA — a pageant family celebrating beauty, confidence, purpose, leadership and elegance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --aqua:#39b9bb; --aqua-dark:#087d82; --aqua-pale:#e9fbfa;
+  --gold:#c9962d; --gold-light:#f3d58b; --purple:#6f43a9; --pink:#d94f82;
+  --coral:#df625e; --ink:#273039; --cream:#fffaf4; --white:#fff;
+  --serif:"Cormorant Garamond",Georgia,serif; --sans:"Montserrat",Arial,sans-serif;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:var(--sans);background:var(--cream)}
+img{max-width:100%;display:block}a{text-decoration:none;color:inherit}
+.top-ribbon{background:linear-gradient(90deg,var(--aqua-dark),var(--purple),var(--pink),var(--aqua-dark));color:#fff;text-align:center;padding:9px 14px;font-size:11px;letter-spacing:3px;font-weight:600}.top-ribbon span{color:var(--gold-light);margin:0 10px}
+.site-header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:15px 5vw;background:rgba(255,250,244,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(201,150,45,.25)}
+.brand{display:flex;align-items:center;gap:10px}.brand-mark{font-size:30px;color:var(--gold)}.brand span:last-child{display:grid;line-height:.92}.brand b{font:700 18px var(--serif);letter-spacing:2px;color:#94701e}.brand i{font:italic 18px "Parisienne",cursive;color:var(--pink)}.brand small{text-align:center;letter-spacing:5px;font-size:8px;color:var(--aqua-dark)}
+nav{display:flex;gap:28px;align-items:center;font-size:12px;font-weight:600;letter-spacing:1px}nav a:hover{color:var(--pink)}.nav-cta,.button{padding:12px 20px;border-radius:999px}.nav-cta{background:var(--aqua-dark);color:#fff}.menu-toggle{display:none;border:0;background:none;font-size:25px}
+.hero{min-height:760px;position:relative;display:grid;grid-template-columns:1fr 1.1fr;align-items:center;gap:4vw;padding:70px 7vw;overflow:hidden;background:radial-gradient(circle at 10% 10%,#fff 0 4%,transparent 25%),linear-gradient(135deg,#dff9f6,#fff9f6 48%,#eee2fa)}
+.hero:before,.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(circle,rgba(255,255,255,.9) 1px,transparent 1.5px);background-size:95px 95px;opacity:.45}
+.hero-copy{position:relative;z-index:2}.eyebrow{letter-spacing:3px;font-size:11px;color:var(--aqua-dark);font-weight:700}.hero h1,.section-heading h2,.journey h2,.register h2{font:600 clamp(48px,6vw,88px)/.87 var(--serif);margin:18px 0;color:#513b72}.hero h1 em,.journey h2 em,.register h2 em{font-family:"Parisienne",cursive;color:var(--pink);font-weight:400}.hero-lead{max-width:530px;line-height:1.8;font-size:15px}.hero-actions{display:flex;gap:12px;margin-top:28px}.button{display:inline-block;font-size:11px;letter-spacing:1px;font-weight:700}.button.gold{background:linear-gradient(135deg,var(--gold),#e2bb5b);color:#fff;box-shadow:0 8px 20px rgba(150,105,20,.2)}.button.ghost{border:1px solid var(--gold);color:#7e5b16;background:#fff8}
+.hero-photo-wrap{position:relative;z-index:2;max-width:590px;justify-self:center}.hero-photo-wrap:before{content:"";position:absolute;inset:-18px;border:1px solid var(--gold);border-radius:52% 52% 48% 48%;transform:rotate(3deg)}.hero-photo-wrap img{border-radius:48% 48% 14% 14%;box-shadow:0 25px 60px rgba(36,104,108,.22);position:relative}.photo-caption{background:#fffdf8;position:absolute;bottom:20px;left:10%;right:10%;padding:14px;text-align:center;border:1px solid var(--gold);font:600 16px var(--serif);box-shadow:0 10px 25px #0001}.photo-caption span{color:var(--aqua-dark)}.hero-flower{position:absolute;color:#b98bc8;opacity:.45;font-size:70px;line-height:.7}.flower-left{left:1vw;top:20%}.flower-right{right:1vw;bottom:15%}
+.section{padding:100px 7vw}.section-heading{text-align:center;max-width:800px;margin:0 auto 48px}.section-heading>span{color:var(--gold);font-size:22px}.section-heading h2{font-size:58px;margin:8px 0 3px}.section-heading p{color:#667078;font-size:14px}
+.mission{background:linear-gradient(180deg,#fff,#eafaf8)}.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:1200px;margin:auto}.mission-copy{font-family:var(--serif);font-size:21px;line-height:1.55}.mission-copy p{margin:0 0 20px}.mission-grid img{border:8px solid #fff;box-shadow:0 20px 45px #0002}.values{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:30px;font:600 12px var(--sans);letter-spacing:1px}.values span{padding:15px;background:#fff;border:1px solid #e4d2a6;border-radius:12px}.values span:first-child{color:var(--pink)}.values span:nth-child(2){color:var(--aqua-dark)}.values span:nth-child(3){color:var(--purple)}.values span:nth-child(4){color:var(--gold)}
+.pageants{background:#fff8f3}.pageant-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1400px;margin:auto}.pageant-card{background:#fff;border:1px solid #e6d5bc;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px #5b426315}.card-photo{aspect-ratio:2/3;background:#eee;overflow:hidden}.card-photo img{width:100%;height:100%;object-fit:cover;transition:.5s}.pageant-card:hover .card-photo img{transform:scale(1.04)}.card-body{padding:20px}.tag{font-size:8px;letter-spacing:1.5px;color:var(--aqua-dark);font-weight:700}.card-body h3{font:700 30px var(--serif);margin:8px 0;color:#5d3c86}.price{font:700 40px var(--serif);color:var(--gold)}.card-body p{font-size:12px;line-height:1.6;min-height:40px}.card-body a{font-size:10px;font-weight:700;letter-spacing:1px;color:var(--pink)}
+.gallery{background:linear-gradient(145deg,#fff,#f2e8fb)}.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:260px;gap:15px;max-width:1300px;margin:auto}.gallery figure{margin:0;position:relative;overflow:hidden;border:5px solid #fff;box-shadow:0 12px 28px #0001}.gallery figure.large{grid-row:span 2;grid-column:span 2}.gallery img{width:100%;height:100%;object-fit:cover}.gallery figure:not(.large) img{object-fit:cover}.gallery figcaption{position:absolute;bottom:0;left:0;right:0;padding:12px;color:#fff;background:linear-gradient(transparent,#291735dd);font:600 18px var(--serif)}
+.journey{background:linear-gradient(120deg,var(--aqua-dark),#188f97 48%,var(--purple));color:#fff}.journey-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.journey h2{color:#fff}.journey p:not(.eyebrow){line-height:1.8;max-width:560px}.journey .eyebrow{color:var(--gold-light)}.steps{display:grid;grid-template-columns:1fr 1fr;gap:15px}.steps div{padding:24px;background:#ffffff15;border:1px solid #ffffff55;border-radius:16px}.steps b{display:block;font:700 34px var(--serif);color:var(--gold-light)}.steps span{font-size:11px;letter-spacing:1px}
+.shop{background:#fff}.shop-card{max-width:1300px;margin:auto;display:grid;grid-template-columns:2fr 1fr;gap:30px;align-items:center;border:1px solid #ead8b8;padding:15px;background:#fffcf7}.shop-card img{width:100%}.shop-copy{padding:30px}.shop-copy h3{font:600 45px var(--serif);color:#5d3c86;margin:0 0 12px}.shop-copy p{font-size:13px;line-height:1.8}
+.register{padding-top:30px;background:#f4e9fa}.register-card{max-width:1100px;margin:auto;padding:55px 7%;border-radius:28px;background:linear-gradient(120deg,var(--purple),#8b5cb8);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:30px;box-shadow:0 20px 45px #5c3a821f}.register h2{color:#fff;font-size:56px}.register .eyebrow{color:var(--gold-light)}.register p{max-width:580px;line-height:1.7}.button.white{background:#fff;color:var(--purple);white-space:nowrap}
+footer{background:#176f75;color:#fff;padding:30px 7vw;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:10px;letter-spacing:1px}.footer-brand{font:600 21px var(--serif)}.footer-brand span{font-family:"Parisienne",cursive;color:#ffb2c8}
+@media(max-width:950px){nav{gap:14px}.pageant-grid{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr;padding-top:50px}.hero-photo-wrap{order:-1;max-width:500px}.hero-copy{text-align:center}.hero-lead{margin:auto}.hero-actions{justify-content:center}.mission-grid,.journey-inner,.shop-card{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}.gallery figure.large{grid-row:span 1;grid-column:span 2}.register-card{display:block;text-align:center}.register-card p{margin:0 auto 25px}}
+@media(max-width:680px){.site-header{padding:12px 5vw}.menu-toggle{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;padding:20px 7vw;flex-direction:column;align-items:stretch;border-bottom:1px solid #ead8b8}.site-header.open nav{display:flex}.hero{min-height:auto;padding:45px 6vw 70px}.hero h1{font-size:55px}.section{padding:70px 5vw}.section-heading h2{font-size:45px}.pageant-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr;grid-auto-rows:360px}.gallery figure.large{grid-column:auto;grid-row:auto}.values,.steps{grid-template-columns:1fr}.journey-inner{gap:35px}.shop-copy{padding:20px}.register h2{font-size:45px}footer{flex-direction:column;text-align:center}.top-ribbon{font-size:8px;letter-spacing:1.5px}}
+
+/* Enhancements: registration, merchandise, social and payment-ready UI */
+.hero-points{display:flex;gap:18px;flex-wrap:wrap;margin-top:24px;color:#665a70;font-size:11px;letter-spacing:.6px}.featured-card{border-color:var(--gold)!important;box-shadow:0 18px 45px rgba(201,150,45,.16)!important}.text-button{border:0;background:none;padding:0;color:var(--pink);font:700 10px var(--sans);letter-spacing:1px;cursor:pointer}.feature-strip{max-width:1400px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;background:linear-gradient(120deg,#fff,#f0fbfa);border-top:1px solid #e3c77f;border-bottom:1px solid #e3c77f}.feature-image{background:#e9fbfa;padding:20px;text-align:center}.feature-image img{max-height:420px;width:100%;object-fit:contain}.feature-copy h2{font:600 clamp(45px,5vw,72px)/.9 var(--serif);color:#513b72;margin:15px 0}.feature-copy h2 em{font-family:"Parisienne",cursive;color:var(--pink);font-weight:400}.feature-copy>p:not(.eyebrow){max-width:520px;line-height:1.8;color:#5f6870}.shop-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.product-list{max-width:1300px;margin:25px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.product{padding:18px;background:#fff;border:1px solid #ead8b8;border-radius:14px;display:grid;gap:4px}.product span{font:700 12px var(--serif);color:var(--aqua-dark)}.product b{font:600 14px var(--serif);color:#5d3c86}.product small{font-weight:700;color:var(--gold)}.featured-product{border-color:var(--gold);background:#fffaf0}.register{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:start}.register-intro{padding-top:20px}.register-intro>p:not(.eyebrow){max-width:500px;line-height:1.8;color:#657078}.payment-note{margin-top:28px;padding:18px;border:1px solid #e4d2a6;border-radius:15px;background:#fff;display:grid;gap:5px;font-size:11px}.payment-note b{color:var(--purple);font-family:var(--serif);font-size:18px}.payment-note span{color:#6c6870;line-height:1.6}.register form{background:#fff;padding:30px;border-radius:24px;box-shadow:0 18px 50px #32115e14;border:1px solid #ead8b8;display:grid;gap:15px}.form-title{text-align:center;border-bottom:1px solid #ead8b8;padding-bottom:15px}.form-title span{color:var(--gold)}.form-title h3{font:700 30px var(--serif);color:var(--deep);margin:5px 0}.form-title p{font-size:11px;color:#777}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{font-size:10px;font-weight:700;color:var(--deep)}label.full{grid-column:1/-1}input,select,textarea{display:block;width:100%;margin-top:6px;border:1px solid #ded2e3;border-radius:12px;padding:12px 13px;font:400 .8rem var(--sans);background:#fff;color:var(--ink)}textarea{resize:vertical}.form-actions{display:flex;gap:10px;flex-wrap:wrap}.button.pay{background:linear-gradient(135deg,var(--purple),#8b5cb8);color:#fff}.form-note{font-size:9px!important;color:#9b8ea0!important;margin:0!important;line-height:1.5!important}.contact{padding-top:25px;background:linear-gradient(180deg,#f4e9fa,#fffaf4)}.contact-card{max-width:1100px;margin:auto;border-radius:28px;padding:45px 6%;background:#fff;border:1px solid #ead8b8;display:flex;justify-content:space-between;align-items:center;gap:30px;box-shadow:0 18px 50px #32115e12}.contact-card h2{font:600 clamp(40px,5vw,62px)/.9 var(--serif);color:var(--deep);margin:10px 0}.contact-card h2 em{font-family:"Parisienne",cursive;color:var(--pink);font-weight:400}.contact-card p:not(.eyebrow){font-size:12px;color:#657078}.contact-card a{color:var(--purple);font-weight:700}.socials{display:flex;gap:9px;flex-wrap:wrap}.socials a{padding:11px 15px;border:1px solid #d9c5a2;border-radius:999px;font-size:10px;text-decoration:none}.socials a:hover{background:var(--aqua-pale);border-color:var(--aqua)}code{font-family:monospace;font-size:10px;color:var(--purple)}
+@media(max-width:950px){.feature-strip{grid-template-columns:1fr}.product-list{grid-template-columns:repeat(2,1fr)}.register{grid-template-columns:1fr}.contact-card{display:block}.socials{margin-top:20px}}
+@media(max-width:680px){.hero-points{justify-content:center}.product-list{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}label.full{grid-column:auto}.form-actions{display:grid}.form-actions .button{width:100%;text-align:center}.feature-strip{padding-top:60px;padding-bottom:60px}}
+
+/* Clinics, retreats, coaching and payment options */
+.experiences{background:linear-gradient(145deg,#fffaf7,#eafaf8 50%,#f2e8fb)}
+.experience-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.experience-card{background:rgba(255,255,255,.9);border:1px solid #ead8b8;border-radius:24px;padding:34px;box-shadow:0 15px 35px #32115e10;position:relative;overflow:hidden}
+.experience-card:after{content:"";position:absolute;right:-35px;top:-35px;width:110px;height:110px;border:1px solid #e3c77f;border-radius:50%;opacity:.5}
+.experience-card.clinic{border-top:5px solid var(--aqua)}.experience-card.retreat{border-top:5px solid var(--pink)}.experience-card.coaching{border-top:5px solid var(--purple)}
+.experience-icon{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid var(--gold);color:var(--gold);font-size:28px;margin-bottom:20px}
+.experience-card h3{font:700 38px var(--serif);color:#5d3c86;margin:7px 0 12px}.experience-card p:not(.eyebrow){font-size:13px;line-height:1.8;color:#626b72;min-height:105px}
+.button.outline{border:1px solid var(--gold);color:#7e5b16;background:#fff8;cursor:pointer}.button.outline:hover{background:#fff;border-color:var(--pink);color:var(--pink)}
+.service-banner{max-width:1200px;margin:30px auto 0;padding:18px 24px;border-top:1px solid #d7bf82;border-bottom:1px solid #d7bf82;display:flex;gap:28px;align-items:center;justify-content:center;flex-wrap:wrap;font:600 13px var(--serif);letter-spacing:2px}.service-banner span:nth-child(1){color:var(--aqua-dark)}.service-banner span:nth-child(2){color:var(--pink)}.service-banner span:nth-child(3){color:var(--purple)}.service-banner span:nth-child(4){color:var(--gold)}.service-banner b{font:italic 18px "Parisienne",cursive;color:#6a5670;letter-spacing:0}
+.payment-methods{display:grid;grid-template-columns:1fr 1fr;gap:10px}.payment-methods>div{border:1px solid #e6d7be;border-radius:13px;padding:12px;background:#fffaf4;display:grid;gap:4px}.payment-methods strong{font:700 16px var(--serif);color:#5d3c86}.payment-methods span{font-size:9px;line-height:1.5;color:#747078}.button.zelle{background:linear-gradient(135deg,#6f43a9,#8f63c5);color:#fff}
+@media(max-width:950px){.experience-grid{grid-template-columns:1fr}.experience-card p:not(.eyebrow){min-height:auto}.payment-methods{grid-template-columns:1fr}}
+
+/* New signature homepage presentation */
+.hero-showcase{display:block;padding:clamp(18px,3vw,44px) clamp(14px,4vw,56px) clamp(42px,6vw,80px);background:linear-gradient(135deg,#effdfc 0%,#d9f8f6 42%,#f6e8fb 100%);position:relative;overflow:hidden}
+.hero-showcase:before,.hero-showcase:after{content:"";position:absolute;border-radius:50%;filter:blur(2px);opacity:.55;pointer-events:none}
+.hero-showcase:before{width:360px;height:360px;left:-150px;top:120px;background:radial-gradient(circle,#bcecf0 0%,transparent 70%)}
+.hero-showcase:after{width:420px;height:420px;right:-180px;bottom:20px;background:radial-gradient(circle,#ead0ef 0%,transparent 70%)}
+.showcase-frame{max-width:1180px;margin:0 auto;border:1px solid rgba(191,139,32,.75);border-radius:28px;padding:10px;background:rgba(255,255,255,.72);box-shadow:0 24px 70px rgba(66,120,126,.18),0 0 0 6px rgba(255,255,255,.45);position:relative;z-index:1}
+.showcase-frame img{display:block;width:100%;height:auto;border-radius:20px}
+.showcase-actions{max-width:1180px;margin:26px auto 0;display:flex;align-items:center;justify-content:space-between;gap:28px;position:relative;z-index:1;padding:0 8px}
+.showcase-actions>div:first-child{max-width:760px}.showcase-actions h1{margin:.2rem 0 .55rem}.showcase-actions p{margin:0;line-height:1.7}.showcase-actions .hero-actions{display:flex;gap:12px;flex-wrap:wrap;flex:none}
+@media(max-width:900px){.showcase-actions{flex-direction:column;align-items:flex-start}.showcase-actions .hero-actions{width:100%}.showcase-actions .button{flex:1;text-align:center}}
+
+/* Refined elegance pass: less repetition, fewer promotional photos, more luxury */
+.mission-grid{align-items:stretch}
+.mission-ornament{position:relative;min-height:390px;border:1px solid #e4c77e;border-radius:28px;background:radial-gradient(circle at 50% 42%,#fffdf7 0,#f7efe8 52%,#e8f8f6 100%);display:grid;place-items:center;overflow:hidden;box-shadow:inset 0 0 0 8px rgba(255,255,255,.55),0 18px 50px rgba(50,17,94,.08)}
+.mission-ring{width:220px;height:220px;border:2px solid rgba(193,145,42,.8);border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 9px rgba(255,255,255,.55),0 0 40px rgba(193,145,42,.12)}
+.mission-ring:before,.mission-ring:after{content:"✦";position:absolute;color:var(--gold);font-size:20px}.mission-ring:before{transform:translateY(-128px)}.mission-ring:after{transform:translateY(128px)}
+.mission-ring span{font-size:95px;color:var(--gold);text-shadow:0 5px 14px rgba(145,105,25,.18)}
+.mission-script{position:absolute;bottom:44px;text-align:center;font:400 30px/1.05 "Parisienne",cursive;color:var(--pink);text-shadow:0 1px 0 #fff}.mission-script em{color:var(--purple);font-size:38px}
+.hydrangea-cluster{position:absolute;inset:auto 12px 10px auto;width:145px;height:100px;opacity:.8}.hydrangea-cluster i{position:absolute;width:44px;height:44px;border-radius:50%;background:radial-gradient(circle,#fff 0 5%,#8b68b4 6% 18%,#bda4db 19% 42%,#8eb9db 43% 62%,#f1a9c0 63%);filter:drop-shadow(0 4px 5px rgba(50,17,94,.1))}.hydrangea-cluster i:nth-child(1){right:0;top:5px}.hydrangea-cluster i:nth-child(2){right:42px;top:28px}.hydrangea-cluster i:nth-child(3){right:78px;top:0}.hydrangea-cluster i:nth-child(4){right:50px;top:58px}
+.elegant-pageants .pageant-card{min-height:390px;display:flex;flex-direction:column;justify-content:flex-start;position:relative;overflow:hidden;background:linear-gradient(145deg,#fff,#fbf8f4);border-radius:28px;box-shadow:0 18px 42px rgba(50,17,94,.08)}
+.elegant-pageants .pageant-card:before{content:"";position:absolute;inset:10px;border:1px solid rgba(193,145,42,.35);border-radius:21px;pointer-events:none}
+.card-crown{height:115px;display:grid;place-items:center;font-size:62px;color:var(--gold);font-family:var(--serif);text-shadow:0 5px 12px rgba(193,145,42,.2);background:radial-gradient(circle,#fffdf7 0,#f7eef5 55%,transparent 72%)}
+.elegant-pageants .card-body{text-align:center;padding:20px 28px 30px}.elegant-pageants .tag{letter-spacing:1.7px}.elegant-pageants h3{font-size:34px;margin:10px 0 2px}.elegant-pageants .price{font:700 42px var(--serif);color:var(--gold);margin:0 0 7px}.elegant-pageants .card-body p{min-height:52px}.elegant-pageants .text-button{margin-top:8px}
+.gallery-grid.elegance-gallery figure img{object-position:center}.gallery-grid.elegance-gallery figure{border-color:#e3c77f;box-shadow:0 15px 38px rgba(50,17,94,.08)}
+.gallery-grid.elegance-gallery figure:not(.large){background:#fffaf5}
+@media(max-width:680px){.mission-ornament{min-height:330px}.mission-ring{width:175px;height:175px}.mission-ring span{font-size:72px}.mission-script{bottom:28px}.mission-script em{font-size:32px}.elegant-pageants .pageant-card{min-height:350px}}
+
+/* =========================================================
+   PASTEL TIFFANY EDITION — visual refresh only
+   Keeps the existing page structure, copy, prices and links.
+   ========================================================= */
+:root{
+  --aqua:#8fd8d6;
+  --aqua-dark:#4daeb4;
+  --aqua-pale:#eefbfa;
+  --gold:#c9a45a;
+  --gold-light:#ead7a1;
+  --purple:#9b83c8;
+  --pink:#e995b5;
+  --coral:#e9a09c;
+  --ink:#4d4b56;
+  --cream:#fffdfb;
+  --white:#fff;
+  --sea:#79bfd0;
+  --lilac:#d9ccef;
+  --blush:#f8dbe7;
+}
+body{background:linear-gradient(180deg,#fff,#fffdfd);color:var(--ink)}
+.top-ribbon{background:linear-gradient(90deg,#a7e1df,#cfc1ea,#f2c7d8,#9fd8e1);color:#4e5660}
+.top-ribbon span{color:#c9a45a}
+.site-header{background:rgba(255,255,255,.96);border-bottom-color:rgba(201,164,90,.24)}
+.brand b{color:#b08032}.brand i{color:#e58eaf}.brand small{color:#58aeb5}
+nav a:hover{color:#df8fac}.nav-cta{background:linear-gradient(135deg,#74c6cc,#5fb4bf);box-shadow:0 6px 16px rgba(85,171,182,.2)}
+.hero-showcase,.hero{background:linear-gradient(135deg,#f1fcfb 0%,#e3f8f7 40%,#f8eefb 72%,#fff4f7 100%)}
+.hero-showcase:before{background:radial-gradient(circle,#d1f1ef 0%,transparent 70%)}
+.hero-showcase:after{background:radial-gradient(circle,#eadcf5 0%,transparent 70%)}
+.hero h1,.section-heading h2,.journey h2,.register h2{color:#65527f}
+.eyebrow{color:#55aeb5}
+.hero h1 em,.journey h2 em,.register h2 em{color:#e48faf}
+.button.gold{background:linear-gradient(135deg,#d5b56d,#e6ca91);box-shadow:0 8px 20px rgba(190,151,72,.16)}
+.button.ghost{border-color:#c9a45a;color:#8b6a2e;background:rgba(255,255,255,.72)}
+.mission{background:linear-gradient(180deg,#fff,#effaf9 62%,#f8f0fb)}
+.mission-grid img{box-shadow:0 20px 45px rgba(76,141,151,.14)}
+.values span{background:#fff;border-color:#e8d8bd}
+.pageants{background:linear-gradient(180deg,#fffdfc,#fff8fb)}
+.elegant-pageants .pageant-card{background:linear-gradient(145deg,#fff,#fbf9fa);box-shadow:0 18px 42px rgba(100,77,120,.07);border-color:#eadfd6}
+.elegant-pageants .pageant-card:before{border-color:rgba(201,164,90,.32)}
+.elegant-pageants .pageant-card.pink{background:linear-gradient(145deg,#fff,#fff6f9)}
+.elegant-pageants .pageant-card.aqua{background:linear-gradient(145deg,#fff,#f2fbfb)}
+.elegant-pageants .pageant-card.purple{background:linear-gradient(145deg,#fff,#f8f3fc)}
+.elegant-pageants .pageant-card.coral{background:linear-gradient(145deg,#fff,#fff7f5)}
+.card-crown{height:170px;padding:10px 18px;background:radial-gradient(circle at 50% 48%,#f7ffff 0,#eef9f8 48%,transparent 75%)}
+.card-crown img{width:100%;height:155px;object-fit:contain;object-position:center;filter:drop-shadow(0 7px 10px rgba(71,134,142,.16))}
+.elegant-pageants .price{color:#d0a75d}
+.elegant-pageants .pageant-card.pink .tag,.elegant-pageants .pageant-card.pink h3,.elegant-pageants .pageant-card.pink .text-button{color:#df8fac}
+.elegant-pageants .pageant-card.aqua .tag,.elegant-pageants .pageant-card.aqua h3,.elegant-pageants .pageant-card.aqua .text-button{color:#58aeb5}
+.elegant-pageants .pageant-card.purple .tag,.elegant-pageants .pageant-card.purple h3,.elegant-pageants .pageant-card.purple .text-button{color:#9278bf}
+.elegant-pageants .pageant-card.coral .tag,.elegant-pageants .pageant-card.coral h3,.elegant-pageants .pageant-card.coral .text-button{color:#e19a9a}
+.feature-strip{background:linear-gradient(120deg,#fff,#f1fbfa 52%,#faf4fc);border-top-color:#e3c98e;border-bottom-color:#e3c98e}
+.feature-image{background:#effafa}
+.gallery{background:linear-gradient(145deg,#fff,#f8f1fc)}
+.journey{background:linear-gradient(120deg,#9eddd9,#8acbd1 48%,#bca9dd);color:#fff}
+.journey .eyebrow{color:#f4e2ac}
+.steps div{background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.52)}
+.experiences{background:linear-gradient(180deg,#fff,#f5fbfb 50%,#faf4fb)}
+.experience-card{background:rgba(255,255,255,.84)!important;border-color:#e5d9dc!important;box-shadow:0 14px 35px rgba(88,72,102,.06)}
+.shop{background:#fff}
+.shop-card{background:linear-gradient(120deg,#fff,#f3fbfa,#fbf4fa);border-color:#ead8b8}
+.register{background:linear-gradient(180deg,#faf3fc,#f1fbfb)}
+.register-card{background:linear-gradient(120deg,#b6a1d9,#a98dcd 48%,#8ccfd0);box-shadow:0 20px 45px rgba(99,78,128,.13)}
+.payment-methods>div{background:#fffdfb;border-color:#e8d9c3}
+.contact{background:linear-gradient(180deg,#effbfa,#fff7fa)}
+footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
+.footer-brand span{color:#ffe0eb}
+
+</style>
+</head>
+<body>
+  <div class="top-ribbon">BEAUTY <span>✦</span> CONFIDENCE <span>✦</span> PURPOSE <span>✦</span> ELEGANCE</div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Miss Beautiful and Elegance USA home">
+      <span class="brand-mark">♕</span>
+      <span><b>MISS BEAUTIFUL</b><i>& Elegance</i><small>USA</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav>
+      <a href="#about">Our Mission</a>
+      <a href="#pageants">Pageants</a>
+      <a href="#journey">The Journey</a>
+      <a href="#experiences">Clinics & Retreats</a>
+      <a href="#coaching">Coaching</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#register">Register</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero hero-showcase" id="home">
+      <div class="showcase-frame">
+        <img src="images/image-01.png" alt="Miss Beautiful & Elegance USA luxury homepage design featuring crowns, hydrangeas, pageant experiences and the brand mission">
+      </div>
+      <div class="showcase-actions">
+        <div><p class="eyebrow">BEAUTY. CONFIDENCE. PURPOSE. ELEGANCE.</p><h1>More Than a Pageant… <em>It’s a Journey.</em></h1><p>A celebration of beauty, confidence, purpose and elegance — with opportunities to compete, grow, connect and shine.</p></div>
+        <div class="hero-actions"><a class="button gold" href="#pageants">Explore Pageants</a><a class="button ghost" href="#register">Begin Your Journey</a></div>
+      </div>
+    </section>
+
+    <section class="mission section" id="about">
+      <div class="section-heading"><span>✦</span><h2>Our Mission</h2><p>More than a crown, it's a journey that lasts a lifetime.</p></div>
+      <div class="mission-grid">
+        <div class="mission-copy">
+          <p>Miss Beautiful & Elegance USA is dedicated to empowering individuals of all ages to embrace their unique beauty, build confidence, and make a positive impact in their community.</p>
+          <p>We provide a platform to celebrate character, talent, leadership, and elegance while creating lifelong memories and friendships.</p>
+          <div class="values"><span>♕ <b>BEAUTY</b></span><span>✦ <b>CONFIDENCE</b></span><span>❖ <b>PURPOSE</b></span><span>✿ <b>ELEGANCE</b></span></div>
+        </div>
+        <div class="mission-ornament" aria-hidden="true">
+          <div class="mission-ring"><span>♕</span></div>
+          <div class="mission-script">More than a crown,<br><em>it's a journey.</em></div>
+          <div class="hydrangea-cluster"><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pageants section" id="pageants">
+      <div class="section-heading"><span>✦</span><h2>A Pageant for Every Dream</h2><p>Choose the experience that feels right for you.</p></div>
+      <div class="pageant-grid elegant-pageants">
+        <article class="pageant-card pink">
+          <div class="card-crown"><img src="images/image-02.jpg" alt="Signature turquoise jeweled Miss Beautiful &amp; Elegance crown"></div><div class="card-body"><span class="tag">PERFECT FOR BEGINNERS</span><h3>Fun Pageants</h3><div class="price">$69</div><p>Fun, confidence and memories that last a lifetime.</p><button class="text-button choose-package" data-package="Fun Pageant — $69">Register →</button></div>
+        </article>
+        <article class="pageant-card aqua">
+          <div class="card-crown"><img src="images/image-02.jpg" alt="Signature turquoise jeweled Miss Beautiful &amp; Elegance crown"></div><div class="card-body"><span class="tag">COMPETE FROM HOME</span><h3>Online Pageants</h3><div class="price">$79</div><p>Convenient, exciting and open to all.</p><button class="text-button choose-package" data-package="Online Pageant — $79">Enter Online →</button></div>
+        </article>
+        <article class="pageant-card purple featured-card">
+          <div class="card-crown"><img src="images/image-02.jpg" alt="Signature turquoise jeweled Miss Beautiful &amp; Elegance crown"></div><div class="card-body"><span class="tag">REPRESENT YOUR STATE</span><h3>State Pageants</h3><div class="price">$299</div><p>Compete for the prestigious title of State Queen.</p><button class="text-button choose-package" data-package="State Pageant — $299">Represent Your State →</button></div>
+        </article>
+        <article class="pageant-card coral">
+          <div class="card-crown"><img src="images/image-02.jpg" alt="Signature turquoise jeweled Miss Beautiful &amp; Elegance crown"></div><div class="card-body"><span class="tag">THE ULTIMATE EXPERIENCE</span><h3>National Pageants</h3><div class="price">$499</div><p>Compete for the title of National Queen.</p><button class="text-button choose-package" data-package="National Pageant — $499">Go National →</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-strip section">
+      <div class="feature-image"><img src="images/image-03.png" alt="Miss Beautiful & Elegance USA sash"></div>
+      <div class="feature-copy"><p class="eyebrow">THE CROWN AWAITS</p><h2>Your Story Deserves a <em>Stage.</em></h2><p>From first-time contestants to queens ready to represent their state or the nation, there is a place for your dream in the Miss Beautiful & Elegance USA family.</p><a class="button gold" href="#register">Find Your Pageant</a></div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading"><span>✦</span><h2>The Miss Beautiful & Elegance Look</h2><p>Your complete visual world — hydrangeas, crowns, sparkle, aqua, gold, pink and purple.</p></div>
+      <div class="gallery-grid elegance-gallery">
+        <figure class="large"><img src="images/image-04.jpg" alt="Queen portrait surrounded by pink, blue and purple hydrangeas"><figcaption>The Face of the Crown</figcaption></figure>
+        <figure><img src="images/image-05.png" alt="Multicolor pageant crown"><figcaption>The Crown</figcaption></figure>
+        <figure><img src="images/image-06.png" alt="Miss Beautiful & Elegance USA state sashes"><figcaption>State Queens</figcaption></figure>
+        <figure><img src="images/image-07.png" alt="Miss Beautiful & Elegance USA national sash"><figcaption>National Elegance</figcaption></figure>
+        <figure><img src="images/image-08.png" alt="Miss Beautiful & Elegance USA official merchandise"><figcaption>Wear Your Crown</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="journey-inner">
+        <div><p class="eyebrow">YOUR NEXT CHAPTER</p><h2>Begin Your <em>Journey</em> Today</h2><p>Join the Miss Beautiful & Elegance USA family where every contestant gets the chance to shine, grow and create memories.</p><a class="button gold" href="#register">Join the Family</a></div>
+        <div class="steps"><div><b>01</b><span>Choose your pageant</span></div><div><b>02</b><span>Register & prepare</span></div><div><b>03</b><span>Step onto your stage</span></div><div><b>04</b><span>Celebrate your crown</span></div></div>
+      </div>
+    </section>
+
+    <section class="experiences section" id="experiences">
+      <div class="section-heading"><span>✦</span><h2>Beyond the Crown</h2><p>Grow your confidence, refine your skills and reconnect with your purpose.</p></div>
+      <div class="experience-grid">
+        <article class="experience-card clinic">
+          <div class="experience-icon">♕</div>
+          <p class="eyebrow">PAGEANT DEVELOPMENT</p>
+          <h3>Clinics</h3>
+          <p>Focused sessions for interview, stage presence, walking, confidence, presentation and pageant preparation.</p>
+          <button class="button outline experience-request" data-service="Pageant Clinic">Learn More</button>
+        </article>
+        <article class="experience-card retreat">
+          <div class="experience-icon">✿</div>
+          <p class="eyebrow">REST • RESET • RISE</p>
+          <h3>Retreats</h3>
+          <p>Beautiful, uplifting experiences designed to create connection, clarity, confidence and memories beyond competition day.</p>
+          <button class="button outline experience-request" data-service="Pageant Retreat">Join the Interest List</button>
+        </article>
+        <article class="experience-card coaching" id="coaching">
+          <div class="experience-icon">✦</div>
+          <p class="eyebrow">ONE-ON-ONE SUPPORT</p>
+          <h3>Coaching</h3>
+          <p>Personalized coaching for contestants and queens who want support with confidence, leadership, interview and their next chapter.</p>
+          <button class="button outline experience-request" data-service="Private Coaching">Request Coaching</button>
+        </article>
+      </div>
+      <div class="service-banner"><span>BEAUTY.</span><span>CONFIDENCE.</span><span>PURPOSE.</span><span>ELEGANCE.</span><b>Every journey deserves support.</b></div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="section-heading"><span>✦</span><h2>Official Merchandise</h2><p>Wear your crown. Live your purpose.</p></div>
+      <div class="shop-card">
+        <img src="images/image-08.png" alt="Official Miss Beautiful & Elegance USA merchandise collection">
+        <div class="shop-copy"><h3>Represent in Style</h3><p>Signature pageant apparel, hoodies, totes, mugs, hats, podcast merchandise and premium rhinestone pieces.</p><div class="shop-actions"><button class="button gold shop-request" data-item="Official Merchandise">Shop the Collection</button><a class="button ghost" href="#contact">Ask About an Item</a></div></div>
+      </div>
+      <div class="product-list">
+        <div class="product"><span>01</span><b>Signature Pageant T-Shirt</b><small>$24.99</small></div>
+        <div class="product"><span>02</span><b>Logo Hoodie</b><small>$44.99</small></div>
+        <div class="product"><span>03</span><b>Road to the Crown T-Shirt</b><small>$24.99</small></div>
+        <div class="product"><span>04</span><b>Tote Bag</b><small>$19.99</small></div>
+        <div class="product"><span>05</span><b>Crown & Conversation Mug</b><small>$16.99</small></div>
+        <div class="product"><span>06</span><b>Official Pageant Mom T-Shirt</b><small>$24.99</small></div>
+        <div class="product"><span>07</span><b>Logo Baseball Cap</b><small>$22.99</small></div>
+        <div class="product featured-product"><span>08</span><b>Rhinestone Jacket Premium Edition</b><small>$149.99</small></div>
+      </div>
+    </section>
+
+    <section class="register section" id="register">
+      <div class="register-intro"><p class="eyebrow">READY FOR THE STAGE?</p><h2>Make Your <em>Moment</em> Shine.</h2><p>Choose your pageant, tell us about yourself, and our team can follow up with the next steps.</p><div class="payment-note"><b>Easy payment options</b><span>PayPal: <strong>Miss Beautiful &amp; Elegance USA Pageant</strong> — secure PayPal-hosted checkout links can be connected for each pageant or service. Zelle can be used through your bank's Zelle experience with your enrolled business email or U.S. mobile number. Add your live payment details in <code>script.js</code> before launch.</span></div></div>
+      <form id="registrationForm">
+        <div class="form-title"><span>✦</span><h3>Registration Interest</h3><p>Start your journey today.</p></div>
+        <div class="form-grid">
+          <label>Full Name<input name="name" required autocomplete="name" placeholder="Your full name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label>
+          <label>Phone<input name="phone" autocomplete="tel" placeholder="(555) 555-5555"></label>
+          <label>Age / Age Group<input name="age" placeholder="Age or age group"></label>
+          <label class="full">Pageant<select name="package" id="packageSelect" required><option value="">Select a pageant</option><option>Fun Pageant — $69</option><option>Online Pageant — $79</option><option>State Pageant — $299</option><option>National Pageant — $499</option></select></label>
+          <label class="full">Message<textarea name="message" rows="4" placeholder="Tell us anything you'd like the pageant team to know."></textarea></label>
+        </div>
+        <div class="form-actions"><button class="button gold" type="submit">Send Registration Request</button><button class="button pay" type="button" id="payButton">Pay with PayPal</button><button class="button zelle" type="button" id="zelleButton">Pay with Zelle</button></div>
+        <div class="payment-methods"><div><strong>PayPal</strong><span><b>Miss Beautiful &amp; Elegance USA Pageant</b><br>Secure hosted checkout for a selected service or pageant.</span></div><div><strong>Zelle</strong><span>Send directly from your banking app using the enrolled business contact.</span></div></div>
+        <p class="form-note">Submitting opens your email app with the completed registration details. No payment is collected until a live payment link is configured.</p>
+      </form>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-card">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Questions? <em>We're Here.</em></h2><p>Email <a href="mailto:missbeautifulandeleganceusa@hotmail.com">missbeautifulandeleganceusa@hotmail.com</a> or use the social links below.</p></div>
+        <div class="socials" aria-label="Social media links">
+          <a href="https://www.facebook.com/missbeautifulandeleganceusa" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/missbeautifulandeleganceusa" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.tiktok.com/@missbeautifulandeleganceusa" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">MISS BEAUTIFUL <span>& Elegance</span> USA</div>
+    <div>Beauty. Confidence. Purpose. Elegance.</div>
+    <div class="footer-links"><a href="#about">Mission</a><a href="#pageants">Pageants</a><a href="#experiences">Clinics</a><a href="#experiences">Retreats</a><a href="#coaching">Coaching</a><a href="#shop">Shop</a><a href="#register">Register</a><a href="#contact">Contact</a></div>
+    <div>© 2026 Miss Beautiful & Elegance USA</div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+const header = document.querySelector('.site-header');
+const toggle = document.querySelector('.menu-toggle');
+const form = document.querySelector('#registrationForm');
+const packageSelect = document.querySelector('#packageSelect');
+const toast = document.querySelector('#toast');
+
+// Add your real PayPal Payment Links here before launch.
+// PayPal supports secure hosted checkout links for products and services.
+const PAYPAL_BUSINESS_NAME = 'Miss Beautiful & Elegance USA Pageant';
+
+const PAYMENT_LINKS = {
+  'Fun Pageant — $69': '',
+  'Online Pageant — $79': '',
+  'State Pageant — $299': '',
+  'National Pageant — $499': ''
+};
+
+// Add the business email or U.S. mobile number enrolled for Zelle.
+// Zelle payments are initiated from the customer's bank app.
+const ZELLE_RECIPIENT = '';
+
+function showToast(message){
+  toast.textContent = message;
+  toast.classList.add('show');
+  clearTimeout(window.toastTimer);
+  window.toastTimer = setTimeout(() => toast.classList.remove('show'), 4500);
+}
+
+if(toggle){
+  toggle.addEventListener('click', () => {
+    const open = header.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+}
+
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => {
+  header.classList.remove('open');
+  toggle?.setAttribute('aria-expanded','false');
+}));
+
+document.querySelectorAll('.choose-package').forEach(button => button.addEventListener('click', () => {
+  packageSelect.value = button.dataset.package;
+  document.querySelector('#register').scrollIntoView({behavior:'smooth'});
+  setTimeout(() => document.querySelector('input[name="name"]')?.focus(), 600);
+}));
+
+document.querySelectorAll('.shop-request').forEach(button => button.addEventListener('click', () => {
+  const subject = encodeURIComponent('Official Merchandise Inquiry');
+  const body = encodeURIComponent('Hello Miss Beautiful & Elegance USA,\n\nI would like information about the Official Merchandise collection.\n\nThank you!');
+  window.location.href = `mailto:missbeautifulandeleganceusa@hotmail.com?subject=${subject}&body=${body}`;
+}));
+
+document.querySelectorAll('.experience-request').forEach(button => button.addEventListener('click', () => {
+  const service = button.dataset.service || 'Service Inquiry';
+  const subject = encodeURIComponent(`${service} — Miss Beautiful & Elegance USA`);
+  const body = encodeURIComponent(`Hello Miss Beautiful & Elegance USA,\n\nI am interested in ${service}. Please send me details about availability, pricing and next steps.\n\nThank you!`);
+  window.location.href = `mailto:missbeautifulandeleganceusa@hotmail.com?subject=${subject}&body=${body}`;
+}));
+
+form?.addEventListener('submit', event => {
+  event.preventDefault();
+  const data = new FormData(form);
+  const subject = encodeURIComponent(`Registration Request — ${data.get('package') || 'Miss Beautiful & Elegance USA'}`);
+  const body = encodeURIComponent([
+    `Full Name: ${data.get('name')}`,
+    `Email: ${data.get('email')}`,
+    `Phone: ${data.get('phone') || ''}`,
+    `Age / Age Group: ${data.get('age') || ''}`,
+    `Pageant: ${data.get('package')}`,
+    '',
+    `Message: ${data.get('message') || ''}`
+  ].join('\n'));
+  window.location.href = `mailto:missbeautifulandeleganceusa@hotmail.com?subject=${subject}&body=${body}`;
+  showToast('Your registration request is ready in your email app.');
+});
+
+document.querySelector('#payButton')?.addEventListener('click', () => {
+  const selected = packageSelect.value;
+  if(!selected){
+    showToast('Please choose a pageant first.');
+    packageSelect.focus();
+    return;
+  }
+  const url = PAYMENT_LINKS[selected];
+  if(url){
+    window.open(url, '_blank', 'noopener');
+  } else {
+    showToast(`${PAYPAL_BUSINESS_NAME} is ready for PayPal checkout. Add the live PayPal Payment Link for this pageant in script.js.`);
+  }
+});
+
+document.querySelector('#zelleButton')?.addEventListener('click', async () => {
+  if(!packageSelect.value){
+    showToast('Please choose a pageant first.');
+    packageSelect.focus();
+    return;
+  }
+  if(!ZELLE_RECIPIENT){
+    showToast('Zelle is ready to connect. Add the enrolled business email or U.S. mobile number in script.js.');
+    return;
+  }
+  try{
+    await navigator.clipboard.writeText(ZELLE_RECIPIENT);
+    showToast(`Zelle recipient copied: ${ZELLE_RECIPIENT}. Open your bank app to send payment.`);
+  }catch(e){
+    showToast(`Send your Zelle payment to: ${ZELLE_RECIPIENT}`);
+  }
+});
+
+</script>
+</body>
+</html>
