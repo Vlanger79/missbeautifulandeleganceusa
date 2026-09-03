@@ -453,7 +453,49 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
     font-size:42px;
   }
 }
-    </style>
+   .register{
+  position:relative;
+  overflow:hidden;
+}
+
+.register::before,
+.register::after{
+  content:"";
+  position:absolute;
+  width:220px;
+  height:220px;
+  border-radius:50%;
+  opacity:.16;
+  filter:blur(1px);
+  pointer-events:none;
+  z-index:0;
+}
+
+.register::before{
+  left:-70px;
+  top:40px;
+  background:
+    radial-gradient(circle at 30% 30%, #d94f82 0 16%, transparent 17%),
+    radial-gradient(circle at 65% 28%, #7db7ef 0 17%, transparent 18%),
+    radial-gradient(circle at 40% 68%, #b892e8 0 17%, transparent 18%),
+    radial-gradient(circle at 72% 70%, #ffffff 0 16%, transparent 17%);
+}
+
+.register::after{
+  right:-70px;
+  bottom:35px;
+  background:
+    radial-gradient(circle at 35% 30%, #7db7ef 0 17%, transparent 18%),
+    radial-gradient(circle at 68% 32%, #d94f82 0 16%, transparent 17%),
+    radial-gradient(circle at 38% 70%, #ffffff 0 16%, transparent 17%),
+    radial-gradient(circle at 70% 68%, #b892e8 0 17%, transparent 18%);
+}
+
+.register > *{
+  position:relative;
+  z-index:1;
+}
+  </style>
 </head>
 <body>
   <div class="top-ribbon">BEAUTY <span>✦</span> CONFIDENCE <span>✦</span> PURPOSE <span>✦</span> ELEGANCE</div>
