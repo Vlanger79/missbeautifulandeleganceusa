@@ -471,74 +471,42 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
   z-index:0;
 }
 
-.register::before{
-  left:12px;
-  top:30px;
-  width:170px;
-  height:520px;
-  border-radius:0;
-  opacity:.55;
-  filter:none;
+.register{
   background:
-    radial-gradient(circle at 34% 10%, #d9c6f3 0 7px, transparent 8px),
-    radial-gradient(circle at 25% 13%, #efbfd2 0 6px, transparent 7px),
-    radial-gradient(circle at 43% 15%, #b9d8f2 0 7px, transparent 8px),
-    radial-gradient(circle at 30% 18%, #ffffff 0 6px, transparent 7px),
-
-    radial-gradient(circle at 55% 38%, #cfc0ee 0 6px, transparent 7px),
-    radial-gradient(circle at 46% 41%, #f2c6d7 0 7px, transparent 8px),
-    radial-gradient(circle at 62% 43%, #b7d8ef 0 6px, transparent 7px),
-
-    radial-gradient(circle at 35% 72%, #d9c7f1 0 7px, transparent 8px),
-    radial-gradient(circle at 25% 75%, #f0bfd2 0 6px, transparent 7px),
-    radial-gradient(circle at 44% 77%, #b8d8f1 0 7px, transparent 8px),
-
-    radial-gradient(ellipse at 49% 24%, #bfd7b8 0 9px, transparent 10px),
-    radial-gradient(ellipse at 34% 31%, #c8dfc0 0 8px, transparent 9px),
-    radial-gradient(ellipse at 54% 57%, #bfd7b8 0 9px, transparent 10px),
-    radial-gradient(ellipse at 38% 65%, #c8dfc0 0 8px, transparent 9px),
-
-    linear-gradient(105deg,
-      transparent 48%,
-      #b7cfad 49%,
-      #b7cfad 51%,
-      transparent 52%);
+    linear-gradient(rgba(255,251,255,.72),rgba(255,251,255,.72)),
+    url("images/Registration 1.png") center/cover no-repeat;
+  padding:70px 6%;
 }
 
-.register::after{
-  right:12px;
-  bottom:25px;
-  width:170px;
-  height:520px;
-  border-radius:0;
-  opacity:.55;
-  filter:none;
-  background:
-    radial-gradient(circle at 62% 12%, #b9d8f2 0 7px, transparent 8px),
-    radial-gradient(circle at 72% 15%, #efbfd2 0 6px, transparent 7px),
-    radial-gradient(circle at 54% 17%, #d9c6f3 0 7px, transparent 8px),
-    radial-gradient(circle at 66% 20%, #ffffff 0 6px, transparent 7px),
-
-    radial-gradient(circle at 45% 43%, #cfc0ee 0 6px, transparent 7px),
-    radial-gradient(circle at 55% 46%, #f2c6d7 0 7px, transparent 8px),
-    radial-gradient(circle at 38% 48%, #b7d8ef 0 6px, transparent 7px),
-
-    radial-gradient(circle at 66% 76%, #d9c7f1 0 7px, transparent 8px),
-    radial-gradient(circle at 76% 79%, #f0bfd2 0 6px, transparent 7px),
-    radial-gradient(circle at 57% 81%, #b8d8f1 0 7px, transparent 8px),
-
-    radial-gradient(ellipse at 52% 28%, #bfd7b8 0 9px, transparent 10px),
-    radial-gradient(ellipse at 67% 35%, #c8dfc0 0 8px, transparent 9px),
-    radial-gradient(ellipse at 47% 61%, #bfd7b8 0 9px, transparent 10px),
-    radial-gradient(ellipse at 64% 68%, #c8dfc0 0 8px, transparent 9px),
-
-    linear-gradient(75deg,
-      transparent 48%,
-      #b7cfad 49%,
-      #b7cfad 51%,
-      transparent 52%);
+.register-intro{
+  background:rgba(255,255,255,.58);
+  border-radius:28px;
+  padding:34px;
 }
 
+#registrationForm{
+  background:rgba(255,255,255,.94);
+  border:1px solid #e7c777;
+  border-radius:28px;
+  padding:42px;
+  box-shadow:0 18px 45px rgba(111,76,169,.08);
+}
+
+#registrationForm .button.gold{
+  background:#f4dc8a;
+  color:#5a4a40;
+  border-color:#e5c66e;
+}
+
+#registrationForm .button.pay{
+  background:#d8c0ee;
+  color:#4f3e63;
+  border-color:#c4a3e3;
+}
+
+#registrationForm .button.pay:last-child{
+  background:#c7a7e6;
+}
 .register > *{
   position:relative;
   z-index:1;
