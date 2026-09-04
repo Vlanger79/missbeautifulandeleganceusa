@@ -511,6 +511,20 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
   position:relative;
   z-index:1;
 }
+ .registration-approved{
+  padding:0 !important;
+  margin:0;
+  width:100%;
+  max-width:none;
+  background:none;
+}
+
+.registration-approved-image{
+  display:block;
+  width:100%;
+  height:auto;
+  margin:0;
+}
   </style>
 </head>
 <body>
@@ -752,23 +766,11 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
       </div>
     </section>
 
-    <section class="register section" id="register">
-      <div class="register-intro"><p class="eyebrow">READY FOR THE STAGE?</p><h2>Make Your <em>Moment</em> Shine.</h2><p>Choose your pageant, tell us about yourself, and our team can follow up with the next steps.</p><div class="payment-note"><b>Easy payment options</b><span>PayPal: <strong>Miss Beautiful &amp; Elegance USA Pageant</strong> — secure PayPal-hosted checkout links can be connected for each pageant or service. Zelle can be used through your bank's Zelle experience with your enrolled business email or U.S. mobile number. Add your live payment details in <code>script.js</code> before launch.</span></div></div>
-      <form id="registrationForm">
-        <div class="form-title"><span>✦</span><h3>Registration Interest</h3><p>Start your journey today.</p></div>
-        <div class="form-grid">
-          <label>Full Name<input name="name" required autocomplete="name" placeholder="Your full name"></label>
-          <label>Email<input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label>
-          <label>Phone<input name="phone" autocomplete="tel" placeholder="(555) 555-5555"></label>
-          <label>Age / Age Group<input name="age" placeholder="Age or age group"></label>
-          <label class="full">Pageant<select name="package" id="packageSelect" required><option value="">Select a pageant</option><option>Fun Pageant — $69</option><option>Online Pageant — $79</option><option>State Pageant — $299</option><option>National Pageant — $499</option></select></label>
-          <label class="full">Message<textarea name="message" rows="4" placeholder="Tell us anything you'd like the pageant team to know."></textarea></label>
-        </div>
-        <div class="form-actions"><button class="button gold" type="submit">Send Registration Request</button><button class="button pay" type="button" id="payButton">Pay with PayPal</button><button class="button zelle" type="button" id="zelleButton">Pay with Zelle</button></div>
-        <div class="payment-methods"><div><strong>PayPal</strong><span><b>Miss Beautiful &amp; Elegance USA Pageant</b><br>Secure hosted checkout for a selected service or pageant.</span></div><div><strong>Zelle</strong><span>Send directly from your banking app using the enrolled business contact.</span></div></div>
-        <p class="form-note">Submitting opens your email app with the completed registration details. No payment is collected until a live payment link is configured.</p>
-      </form>
-    </section>
+    <section class="registration-approved section" id="register">
+  <img src="images/Registration Form 1.png"
+       alt="Miss Beautiful and Elegance USA Registration Interest"
+       class="registration-approved-image">
+</section>
 
     <section class="contact section" id="contact">
       <div class="contact-card">
