@@ -488,6 +488,121 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
   height:auto;
   margin:0;
 }
+ /* OUR LEGACY QUEENS */
+.legacy-queens{
+  background:linear-gradient(180deg,#fffaf4 0%,#fbf4ff 50%,#eefbfa 100%);
+  padding:80px 5vw 90px;
+  position:relative;
+  overflow:hidden;
+}
+
+    .legacy-queens-heading{
+  text-align:center;
+  max-width:900px;
+  margin:0 auto 45px;
+}
+
+    .legacy-queens-heading .eyebrow{
+  color:#9b6bb3;
+  font-weight:700;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:12px;
+}
+
+    .legacy-queens-heading h2{
+  font-family:"Cormorant Garamond",serif;
+  font-size:clamp(38px,5vw,64px);
+  color:#5f3c78;
+  margin:0 0 14px;
+  line-height:1;
+}
+
+    .legacy-queens-heading > p:not(.eyebrow){
+  font-size:17px;
+  line-height:1.7;
+  color:#62596b;
+  margin:0 auto;
+  max-width:760px;
+}
+
+    .legacy-queens-grid{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:24px;
+  max-width:1500px;
+  margin:0 auto;
+}
+
+ .legacy-queen-card{
+  margin:0;
+  background:rgba(255,255,255,.92);
+  border:1px solid rgba(196,160,92,.55);
+  border-radius:22px;
+  padding:10px;
+  overflow:hidden;
+  box-shadow:0 12px 30px rgba(91,63,112,.12);
+  text-align:center;
+}
+
+      .legacy-queen-card img{
+  display:block;
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  object-position:center top;
+  border-radius:15px;
+}
+
+    .legacy-queen-card figcaption{
+  padding:18px 8px 14px;
+}
+
+    .legacy-queen-card h3{
+  font-family:"Cormorant Garamond",serif;
+  font-size:26px;
+  color:#5f3c78;
+  margin:0 0 5px;
+  line-height:1.1;
+}
+
+    .legacy-queen-card figcaption p{
+  font-size:13px;
+  color:#9b6bb3;
+  font-weight:700;
+  letter-spacing:.7px;
+  margin:0;
+  line-height:1.35;
+}
+
+                  @media (max-width:1100px){
+  .legacy-queens-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+                    
+} 
+    @media (max-width:700px){
+  .legacy-queens{
+    padding:60px 20px 70px;
+  }
+
+  .legacy-queens-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+  }
+
+  .legacy-queen-card h3{
+    font-size:22px;
+  }
+}
+
+@media (max-width:420px){
+  .legacy-queens-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+    
   </style>
 </head>
 <body>
@@ -562,16 +677,113 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
   </div>
 </section>
 
-    <section class="gallery section" id="gallery">
-      <div class="section-heading"><span>✦</span><h2>The Miss Beautiful & Elegance Look</h2><p>Your complete visual world — hydrangeas, crowns, sparkle, aqua, gold, pink and purple.</p></div>
-      <div class="gallery-grid elegance-gallery">
-        <figure class="large"><img src="images/image-04.jpg" alt="Queen portrait surrounded by pink, blue and purple hydrangeas"><figcaption>The Face of the Crown</figcaption></figure>
-        <figure><img src="images/image-05.png" alt="Multicolor pageant crown"><figcaption>The Crown</figcaption></figure>
-        <figure><img src="images/image-06.png" alt="Miss Beautiful & Elegance USA state sashes"><figcaption>State Queens</figcaption></figure>
-        <figure><img src="images/image-07.png" alt="Miss Beautiful & Elegance USA national sash"><figcaption>National Elegance</figcaption></figure>
-        <figure><img src="images/image-08.png" alt="Miss Beautiful & Elegance USA official merchandise"><figcaption>Wear Your Crown</figcaption></figure>
-      </div>
-    </section>
+    <section class="legacy-queens section" id="legacy-queens">
+  <div class="legacy-queens-heading">
+    <p class="eyebrow">♕ A Legacy of Beauty & Elegance ♕</p>
+    <h2>Our Legacy Queens</h2>
+    <p>Celebrating the beautiful queens who represent confidence, purpose, grace and elegance.</p>
+   
+  </div>
+      <div class="legacy-queens-grid">
+<figure class="legacy-queen-card">
+  <img src="images/legacy-paisley.png" alt="Paisley - Miss Tiny Legacy">
+  <figcaption>
+    <h3>Paisley</h3>
+    <p>Miss Tiny Legacy</p>
+  </figcaption>
+</figure><figure class="legacy-queen-card">
+  <img src="images/legacy-kimber.png" alt="Kimber - Miss Little Legacy">
+  <figcaption>
+    <h3>Kimber</h3>
+    <p>Miss Little Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-josephine.png" alt="Josephine - Miss Young Legacy">
+  <figcaption>
+    <h3>Josephine</h3>
+    <p>Miss Young Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-jasmine.png" alt="Jasmine - Miss Legacy Pre Teen">
+  <figcaption>
+    <h3>Jasmine</h3>
+    <p>Miss Legacy Pre Teen</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-evi.png" alt="Evi - Miss Teen Legacy">
+  <figcaption>
+    <h3>Evi</h3>
+    <p>Miss Teen Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-maria.png" alt="Maria - Miss Brilliant Legacy">
+  <figcaption>
+    <h3>Maria</h3>
+    <p>Miss Beautiful Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-jessica.png" alt="Jessica - Mrs. Beautiful Legacy">
+  <figcaption>
+    <h3>Jessica</h3>
+    <p>Mrs. Beautiful Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-amanda.png" alt="Amanda - Mrs. Regal Legacy">
+  <figcaption>
+    <h3>Amanda</h3>
+    <p>Mrs. Regal Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-ashley.png" alt="Ashley - Mrs. Radient Legacy">
+  <figcaption>
+    <h3>Ashley</h3>
+    <p>Mrs. Radient Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-jamie.png" alt="Jamie - Mrs. Elegant Legacy">
+  <figcaption>
+    <h3>Jamie</h3>
+    <p>Mrs. Elegant Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-sharron.png" alt="Sharron - Miss. Graceful Legacy">
+  <figcaption>
+    <h3>Sharron</h3>
+    <p>Miss Graceful Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-kristi.png" alt="Kristi - Mrs. Timeless Elegance Legacy">
+  <figcaption>
+    <h3>Kristi</h3>
+    <p>Mrs. Timeless Elegance Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-chinna.png" alt="Chinna - Miss Magnificent Legacy">
+  <figcaption>
+    <h3>Chinna</h3>
+    <p>Miss Magnificent Legacy</p>
+  </figcaption>
+</figure>
+        <figure class="legacy-queen-card">
+  <img src="images/legacy-julianna.png" alt="Julianna - Miss Enchanted Legacy">
+  <figcaption>
+    <h3>Julianna</h3>
+    <p>Miss Enchanted Legacy</p>
+  </figcaption>
+</figure>
+</div>
+</section>
 
     <section class="journey section" id="journey">
       <div class="journey-inner">
