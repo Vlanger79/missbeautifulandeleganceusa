@@ -693,6 +693,20 @@ background-repeat:repeat-y;
 border-bottom:0;
 box-shadow:none;
 }
+    .legacy-flow{
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  background-image:url("images/Queen Legacy.png");
+  background-size:100% auto;
+  background-position:center top;
+  background-repeat:repeat-y;
+}
+
+#legacy-story,
+.legacy-queens{
+  background-image:none !important;
+}
 #legacy-story .feature-image{
   background:transparent;
   padding:0;
@@ -774,7 +788,7 @@ box-shadow:none;
         </article>
       </div>
     </section>
-
+<div class="legacy-flow">
     <section class="feature-strip section" id="legacy-story">
 
   <div class="feature-image"><img src="images/Julie Legacy Story .png" alt="Julie, Our First Legacy Queen"></div>
@@ -912,6 +926,7 @@ box-shadow:none;
 </figure>
 </div>
 </section>
+    </div>
 
   
     <section class="experiences section" id="experiences">
