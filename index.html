@@ -697,10 +697,13 @@ box-shadow:none;
   width:100vw;
   margin-left:calc(50% - 50vw);
   margin-right:calc(50% - 50vw);
-  background-image:url("images/Queen Legacy.png"), url("images/Queen Legacy.png");
-  background-size:100% auto, 100% auto;
-  background-position:center top, center bottom;
-  background-repeat:no-repeat, no-repeat;
+  background-image:
+  url("images/Queen Legacy.png"),
+  url("images/Queen Legacy.png"),
+  linear-gradient(180deg,#dff4ff 0%,#fbe5f4 50%,#e7f4ff 100%);
+background-size:100% auto,100% auto,100% 100%;
+background-position:center top,center bottom,center;
+background-repeat:no-repeat,no-repeat,no-repeat;
 }
 
 #legacy-story,
