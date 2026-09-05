@@ -679,7 +679,23 @@ background-repeat:repeat-y;
   }
 }
 
-    
+
+  #legacy-story{
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  padding:80px 7%;
+  background-image:url("images/Queen Legacy.png");
+  background-size:100% auto;
+  background-position:center top;
+  background-repeat:repeat-y;
+}
+
+#legacy-story .feature-image,
+#legacy-story .feature-copy{
+  position:relative;
+  z-index:1;
+}
   </style>
 </head>
 <body>
@@ -731,7 +747,7 @@ background-repeat:repeat-y;
       </div>
     </section>
 
-    <section class="feature-strip section">
+    <section class="feature-strip section" id="legacy-story">
 
   <div class="feature-image"><img src="images/Julie Legacy Story .png" alt="Julie, Our First Legacy Queen"></div>
     <div class="feature-copy">
