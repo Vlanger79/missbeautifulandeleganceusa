@@ -494,58 +494,16 @@ footer{background:linear-gradient(90deg,#8bcfd1,#a99bcf,#e2a9c0);color:#fff}
   isolation:isolate;
   overflow:hidden;
   padding:90px 4vw 100px;
-  background:
-    radial-gradient(circle at 10% 18%, rgba(199,235,244,.55), transparent 28%),
-    radial-gradient(circle at 88% 22%, rgba(247,205,226,.55), transparent 30%),
-    radial-gradient(circle at 14% 88%, rgba(218,207,244,.50), transparent 30%),
-    radial-gradient(circle at 88% 86%, rgba(192,235,239,.50), transparent 30%),
-    linear-gradient(135deg,#f9ffff 0%,#fff6fb 35%,#f7f1ff 65%,#eefcfd 100%);
+  background-image:url("images/Floral background Legacy Queens.png");
+background-size:cover;
+background-position:center top;
+background-repeat:no-repeat;
   border-top:1px solid rgba(201,150,45,.45);
   border-bottom:1px solid rgba(201,150,45,.45);
   box-shadow:inset 0 0 80px rgba(111,67,169,.06);
 }
 
-/* Soft hydrangea-inspired floral edges */
-.legacy-queens::before,
-.legacy-queens::after{
-  content:"";
-  position:absolute;
-  width:360px;
-  height:720px;
-  top:40px;
-  z-index:0;
-  opacity:.72;
-  pointer-events:none;
-  filter:blur(.2px);
-}
 
-.legacy-queens::before{
-  left:-125px;
-  background:
-    radial-gradient(circle at 35% 10%, #ffffff 0 8%, transparent 9%),
-    radial-gradient(circle at 55% 17%, #d9c6f4 0 10%, transparent 11%),
-    radial-gradient(circle at 27% 25%, #b9dff5 0 12%, transparent 13%),
-    radial-gradient(circle at 58% 34%, #f5bed7 0 12%, transparent 13%),
-    radial-gradient(circle at 28% 45%, #ffffff 0 10%, transparent 11%),
-    radial-gradient(circle at 58% 57%, #c7e8f1 0 13%, transparent 14%),
-    radial-gradient(circle at 30% 70%, #d8c4f2 0 12%, transparent 13%),
-    radial-gradient(circle at 55% 82%, #f4bfd9 0 12%, transparent 13%),
-    radial-gradient(circle at 24% 93%, #bfe1f4 0 10%, transparent 11%);
-}
-
-.legacy-queens::after{
-  right:-125px;
-  background:
-    radial-gradient(circle at 65% 10%, #ffffff 0 8%, transparent 9%),
-    radial-gradient(circle at 45% 18%, #b9dff5 0 11%, transparent 12%),
-    radial-gradient(circle at 72% 28%, #f4bfd9 0 12%, transparent 13%),
-    radial-gradient(circle at 42% 39%, #d8c4f2 0 12%, transparent 13%),
-    radial-gradient(circle at 70% 51%, #ffffff 0 10%, transparent 11%),
-    radial-gradient(circle at 43% 63%, #c7e8f1 0 13%, transparent 14%),
-    radial-gradient(circle at 72% 74%, #f5bed7 0 12%, transparent 13%),
-    radial-gradient(circle at 45% 86%, #d9c6f4 0 12%, transparent 13%),
-    radial-gradient(circle at 72% 95%, #bfe1f4 0 10%, transparent 11%);
-}
 
 .legacy-queens > *{
   position:relative;
