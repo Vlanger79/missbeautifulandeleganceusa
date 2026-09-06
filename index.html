@@ -52,7 +52,16 @@ footer{background:#176f75;color:#fff;padding:30px 7vw;display:flex;justify-conte
 @media(max-width:680px){.hero-points{justify-content:center}.product-list{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}label.full{grid-column:auto}.form-actions{display:grid}.form-actions .button{width:100%;text-align:center}.feature-strip{padding-top:60px;padding-bottom:60px}}
 
 /* Clinics, retreats, coaching and payment options */
-.experiences{background:linear-gradient(145deg,#fffaf7,#eafaf8 50%,#f2e8fb)}
+.experiences{
+  width:100vw;
+  max-width:none;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  background-image:url("images/Pageant Floral Background.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 .experience-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .experience-card{background:rgba(255,255,255,.9);border:1px solid #ead8b8;border-radius:24px;padding:34px;box-shadow:0 15px 35px #32115e10;position:relative;overflow:hidden}
 .experience-card:after{content:"";position:absolute;right:-35px;top:-35px;width:110px;height:110px;border:1px solid #e3c77f;border-radius:50%;opacity:.5}
@@ -950,7 +959,16 @@ box-shadow:none;
           <h3>Retreats</h3>
           <p>Beautiful, uplifting experiences designed to create connection, clarity, confidence and memories beyond competition day.</p>
           <button class="button outline experience-request" data-service="Pageant Retreat">Join the Interest List</button>
-        </article>
+</article>
+
+<article class="experience-card coaching">
+  <div class="experience-icon">✦</div>
+  <p class="eyebrow">PERSONALIZED PAGEANT PREPARATION</p>
+  <h3>Coaching Services</h3>
+  <p>Personalized coaching designed to build confidence, strengthen pageant skills, refine presentation and support every step of your pageant journey.</p>
+  <a class="button outline" href="#coaching">Explore Coaching</a>
+</article>
+      
        </div>
 
  <section class="homepage-coaching" id="coaching">
