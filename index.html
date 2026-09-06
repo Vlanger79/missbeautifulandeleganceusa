@@ -65,7 +65,8 @@ footer{background:#176f75;color:#fff;padding:30px 7vw;display:flex;justify-conte
 @media(max-width:950px){.experience-grid{grid-template-columns:1fr}.experience-card p:not(.eyebrow){min-height:auto}.payment-methods{grid-template-columns:1fr}}
 
 /* New signature homepage presentation */
-.hero-showcase{display:block;padding:clamp(18px,3vw,44px) clamp(14px,4vw,56px) clamp(42px,6vw,80px);background:linear-gradient(135deg,#effdfc 0%,#d9f8f6 42%,#f6e8fb 100%);position:relative;overflow:hidden}
+.hero-showcase{display:block;padding:0;width:100vw;max-width:none;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);background:none;overflow:hidden}
+    .hero-showcase > img{width:100%;max-width:none;height:auto;display:block}
 .hero-showcase:before,.hero-showcase:after{content:"";position:absolute;border-radius:50%;filter:blur(2px);opacity:.55;pointer-events:none}
 .hero-showcase:before{width:360px;height:360px;left:-150px;top:120px;background:radial-gradient(circle,#bcecf0 0%,transparent 70%)}
 .hero-showcase:after{width:420px;height:420px;right:-180px;bottom:20px;background:radial-gradient(circle,#ead0ef 0%,transparent 70%)}
